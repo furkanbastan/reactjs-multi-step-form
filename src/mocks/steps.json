@@ -1,0 +1,190 @@
+{
+    "steps": [
+        {
+            "id": 1,
+            "stepOrder": 1,
+            "title": "Personal Info",
+            "subtitle": "Please provide your name, email address, and phone number.",
+            "hasBackButton": false,
+            "hasNextButton": true,
+            "backButtonTitle": null,
+            "nextButtonTitle": "Next Step",
+            "hasOption": false,
+            "optionFirst": null,
+            "optionSecond": null,
+            "formGroup": "InputGroup",
+            "formElements": [
+                {
+                    "id": 1,
+                    "title": "Name",
+                    "subtitle": null,
+                    "placeholder": "Vanessa Mint",
+                    "errorMessage": "The fiel is required",
+                    "optionFirstValue": null,
+                    "optionSecondValue": null,
+                    "icon": null,
+                    "name": "firstname"
+                },
+                {
+                    "id": 2,
+                    "title": "Email Address",
+                    "subtitle": null,
+                    "placeholder": "vanesamint@mail.com",
+                    "errorMessage": "The fiel is required",
+                    "optionFirstValue": null,
+                    "optionSecondValue": null,
+                    "icon": null,
+                    "name": "email"
+                },
+                {
+                    "id": 3,
+                    "title": "Phone Number",
+                    "subtitle": null,
+                    "placeholder": "e.g. +1 234 567 890",
+                    "errorMessage": "The fiel is required",
+                    "optionFirstValue": null,
+                    "optionSecondValue": null,
+                    "icon": null,
+                    "name": "number"
+                }
+            ],
+            "sidebar": {
+                "id": 1,
+                "stepOrder": 1,
+                "title": "STEP 1",
+                "subtitle": "your info"
+            }
+        },
+        {
+            "id": 2,
+            "stepOrder": 2,
+            "title": "Select Your Plan",
+            "subtitle": "You have the option of monthly or yearly billing.",
+            "hasBackButton": true,
+            "hasNextButton": true,
+            "backButtonTitle": "Go Back",
+            "nextButtonTitle": "Next Step",
+            "hasOption": true,
+            "optionFirst": "Monthly",
+            "optionSecond": "Yearly",
+            "formGroup": "RadioGroup",
+            "formElements": [
+                {
+                    "id": 1,
+                    "title": "Arcade",
+                    "subtitle": null,
+                    "placeholder": null,
+                    "errorMessage": null,
+                    "optionFirstValue": 9,
+                    "optionSecondValue": 90,
+                    "icon": "./assets/images/icon-arcade.svg",
+                    "name": "arcade"
+                },
+                {
+                    "id": 2,
+                    "title": "Advanced",
+                    "subtitle": null,
+                    "placeholder": null,
+                    "errorMessage": null,
+                    "optionFirstValue": 12,
+                    "optionSecondValue": 120,
+                    "icon": "./assets/images/icon-advanced.svg",
+                    "name": "advanced"
+                },
+                {
+                    "id": 3,
+                    "title": "Pro",
+                    "subtitle": null,
+                    "placeholder": null,
+                    "errorMessage": null,
+                    "optionFirstValue": 15,
+                    "optionSecondValue": 150,
+                    "icon": "./assets/images/icon-pro.svg",
+                    "name": "pro"
+                }
+            ],
+            "sidebar": {
+                "id": 2,
+                "stepOrder": 2,
+                "title": "STEP 2",
+                "subtitle": "select plan"
+            }
+        },
+        {
+            "id": 3,
+            "stepOrder": 3,
+            "title": "Pick add-ons",
+            "subtitle": "Add-ons help enhance your gaming experience.",
+            "hasBackButton": true,
+            "hasNextButton": true,
+            "backButtonTitle": "Go Back",
+            "nextButtonTitle": "Next Step",
+            "hasOption": true,
+            "optionFirst": "Monthly",
+            "optionSecond": "Yearly",
+            "formGroup": "CheckboxGroup",
+            "formElements": [
+                {
+                    "id": 1,
+                    "title": "Online service",
+                    "subtitle": "Access to multiplayer games.",
+                    "placeholder": null,
+                    "errorMessage": null,
+                    "optionFirstValue": 1,
+                    "optionSecondValue": 10,
+                    "icon": null,
+                    "name": "online-service"
+                },
+                {
+                    "id": 2,
+                    "title": "Larger Storage",
+                    "subtitle": "Extra 1TB of cloud save.",
+                    "placeholder": null,
+                    "errorMessage": null,
+                    "optionFirstValue": 2,
+                    "optionSecondValue": 20,
+                    "icon": null,
+                    "name": "larger-storage"
+                },
+                {
+                    "id": 3,
+                    "title": "Customizable Profile",
+                    "subtitle": "Custom theme on your profile.",
+                    "placeholder": null,
+                    "errorMessage": null,
+                    "optionFirstValue": 2,
+                    "optionSecondValue": 20,
+                    "icon": null,
+                    "name": "customaziable-profile"
+                }
+            ],
+            "sidebar": {
+                "id": 3,
+                "stepOrder": 3,
+                "title": "STEP 3",
+                "subtitle": "add-ons"
+            }
+        },
+        {
+            "id": 4,
+            "stepOrder": 4,
+            "title": "Finishing up",
+            "subtitle": "Double-check everything looks OK before confirming.",
+            "hasBackButton": true,
+            "hasNextButton": true,
+            "backButtonTitle": "Go Back",
+            "nextButtonTitle": "Confirm",
+            "hasOption": true,
+            "optionFirst": "Monthly",
+            "optionSecond": "Yearly",
+            "formGroup": "StepSummary",
+            "formElements": [],
+            "sidebar": {
+                "id": 4,
+                "stepOrder": 4,
+                "title": "STEP 4",
+                "subtitle": "summary"
+            }
+        }
+    ]
+}

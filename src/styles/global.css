@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-sm);
+    background-color: var(--magnolia);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
